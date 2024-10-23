@@ -1,15 +1,17 @@
 
 import './App.css'
+import Countries from './components/Countries/Countries'
 
 function App() {
 
   return (
     <>
      
-      <h3>Vite + React</h3>
+      <h3>Tour with React</h3>
       
+      <Countries></Countries>
     </>
   )
 }
 
-export default App
+export default App  
