@@ -4,3 +4,17 @@
     padding: 15px;
     border-radius: 15px;
 }
+.country-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.visited{
+    background-color: rgb(43, 228, 213);
+    color: black;
+}
+.flag-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
